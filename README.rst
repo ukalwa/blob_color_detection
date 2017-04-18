@@ -11,7 +11,7 @@ Requirments
 -----------
 *Environment Setup*
 
-* Download & Install <a href="http://opencv.org/downloads.html" target="_blank">OpenCV 3.1.0</a><br/>
+* Download & Install <a href="http://opencv.org/downloads.html" target="_blank"> OpenCV 3.1.0</a><br/>
 
 This requires Python2.7 and the Python wrapper for OpenCV.
 It was tested on Windows and Mac OS X.
@@ -35,10 +35,10 @@ Basically the functions get_color_of_object handles the color selection and dete
 Here are some of the snapshots
 -------------------------------
 *Identify color you want to detect(in this case Red) in this window and confirm by pressing c*
-![Color Identifier](Images/color_identifier.PNG)
+.. image:: Images/color_identifier.PNG
 
-*Snapshot of a frame from a game* <br>
-![Color Tracking in game](Images/color_tracking_in_game.PNG)
+*Snapshot of a frame from a game*
+.. image:: Images/color_tracking_in_game.PNG
 
 License
 -------
