@@ -13,7 +13,7 @@ Requirments
 
 * Download & Install `OpenCV 3.1.0 <http://opencv.org/downloads.html>`_ 
 * Download & Install `Python 2.7 <https://www.python.org/downloads/>`_ 
-* Using pip install  `numpy <https://www.scipy.org/scipylib/download.html>`_ and `matplotlib https://matplotlib.org/`_
+* Using pip install  `numpy <https://www.scipy.org/scipylib/download.html>`_ and `matplotlib <https://matplotlib.org/>`_
 
 It was tested on Windows and Mac OS X.
 
