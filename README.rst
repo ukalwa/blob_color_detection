@@ -11,7 +11,7 @@ Requirments
 -----------
 *Environment Setup*
 
-* Download & Install `OpenCV 3.1.0 <http://opencv.org/downloads.html>` 
+* Download & Install `OpenCV 3.1.0 <http://opencv.org/downloads.html>`_ 
 
 This requires Python2.7 and the Python wrapper for OpenCV.
 It was tested on Windows and Mac OS X.
