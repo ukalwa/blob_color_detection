@@ -37,7 +37,6 @@ Here are some of the snapshots
 
 .. image:: Images/color_identifier.PNG
 
-
 .. image:: Images/color_tracking_in_game.PNG
 
 License
