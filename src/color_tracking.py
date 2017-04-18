@@ -51,8 +51,8 @@ def get_color_of_object(image, hsv_image):
 #            cv2.rectangle(image_copy,(x,y),(x+w,y+h),(255,0,0),2)
         image_copy,count = detect_object_single_frame(image,res, point, prev_point)
         font = cv2.FONT_HERSHEY_SIMPLEX
-        cv2.putText(image_copy,'Press q to cancel, c to confirm',(10,50), font, 1,(255,0,0),2)
-        cv2.putText(image_copy,'Count %s' %count,(10,100), font, 1,(255,0,0),2)
+        cv2.putText(image_copy,'Press q to cancel, c to confirm',(10,30), font, 1,(255,0,0),2)
+        cv2.putText(image_copy,'Count %s' %count,(10,70), font, 1,(255,0,0),2)
         cv2.imshow(win_name, image_copy)
         k = cv2.waitKey(5) & 0xFF
         if k == ord('q'):
