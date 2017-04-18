@@ -35,6 +35,10 @@ Basically the functions get_color_of_object handles the color selection and dete
 Here are some of the snapshots
 -------------------------------
 
+.. image:: Images/color_identifier.PNG
+
+.. image:: Images/color_tracking_in_game.PNG
+
 License
 -------
 
