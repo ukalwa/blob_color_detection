@@ -34,10 +34,10 @@ Basically the functions get_color_of_object handles the color selection and dete
 
 Here are some of the snapshots
 -------------------------------
-*Identify color you want to detect(in this case Red) in this window and confirm by pressing c* _
+
 .. image:: Images/color_identifier.PNG
 
-*Snapshot of a frame from a game* _
+
 .. image:: Images/color_tracking_in_game.PNG
 
 License
