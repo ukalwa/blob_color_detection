@@ -28,6 +28,7 @@ The code performs these following steps:
 1. Read a frame from a video file and detect the red blobs and present it to the user.
 2. User can change the color by moving the H,S,V trackbars and accordingly choose different color and press c to confirm
 3. These H,S,V values are used in the rest of frames in the video to idenfify the blobs 
+4. Bounding boxes(blue color) are drawn for these identified blobs and display the frame along with count and frame number
 
 Basically the functions get_color_of_object handles the color selection and detect_object applies necessary image processing techniques to identify the blobs and draw the bounding boxes
 
