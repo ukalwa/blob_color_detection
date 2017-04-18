@@ -26,7 +26,7 @@ if bool_read:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(image_copy,'frame %s Count %s' %(frame,count),(10,50), \
                     font, 1,(255,255,0),1)
-        cv2.imshow('image',image_copy)
+        cv2.imshow('Video',image_copy)
         cv2.waitKey(100)
         while vid.isOpened(): # Loop through all frames
             bool_read, image = vid.read()
@@ -38,8 +38,8 @@ if bool_read:
                 frame += 1
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 cv2.putText(image_copy,'frame %s Count %s' %(frame,count),\
-                            (10,50), font, 1,(255,255,0),1)
-                cv2.imshow('image',image_copy)
+                            (10,50), font, 1,(255,0,0),2)
+                cv2.imshow('Video',image_copy)
                 cv2.waitKey(100)
             else: # Frame unable to read or reached end of frame
                 break

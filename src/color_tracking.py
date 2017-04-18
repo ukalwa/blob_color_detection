@@ -51,8 +51,8 @@ def get_color_of_object(image, hsv_image):
 #            cv2.rectangle(image_copy,(x,y),(x+w,y+h),(255,0,0),2)
         image_copy,count = detect_object_single_frame(image,res, point, prev_point)
         font = cv2.FONT_HERSHEY_SIMPLEX
-        cv2.putText(image_copy,'Press q to cancel, c to confirm',(10,50), font, 1,(255,255,0),1)
-        cv2.putText(image_copy,'Count %s' %count,(10,100), font, 1,(255,255,0),1)
+        cv2.putText(image_copy,'Press q to cancel, c to confirm',(10,50), font, 1,(255,0,0),2)
+        cv2.putText(image_copy,'Count %s' %count,(10,100), font, 1,(255,0,0),2)
         cv2.imshow(win_name, image_copy)
         k = cv2.waitKey(5) & 0xFF
         if k == ord('q'):
@@ -115,7 +115,7 @@ def detect_object_single_frame(image, res, point, prev_point):
         centre_x = x + (w / 2)
         centre_y = y + (h / 2)
 #            print w,h
-        cv2.rectangle(image_copy,(centre_x-10,centre_y-10),(centre_x+10,centre_y+10),(0,0,0),2)
+        cv2.rectangle(image_copy,(centre_x-10,centre_y-10),(centre_x+10,centre_y+10),(255,0,0),2)
     return image_copy, len(cnts)
     
 def detect_object(image, res):
@@ -134,7 +134,7 @@ def detect_object(image, res):
         centre_x = x + (w / 2)
         centre_y = y + (h / 2)
 #            print w,h
-        cv2.rectangle(image_copy,(centre_x-10,centre_y-10),(centre_x+10,centre_y+10),(0,0,0),2)
+        cv2.rectangle(image_copy,(centre_x-10,centre_y-10),(centre_x+10,centre_y+10),(255,0,0),2)
     return image_copy, len(cnts)
     
     
